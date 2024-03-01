@@ -7,9 +7,9 @@ use PHPMailer\PHPMailer\Exception;
 if (isset($_POST['save_multiple_checkbox'])) {
     // Database connection details
     $db_host = "localhost";
-    $db_username = "u219119956_newdbpinoypro";
-    $db_password = "+fX?~zk59";
-    $db_name = "u219119956_newdbpinoypro";
+    $db_username = "";
+    $db_password = "";
+    $db_name = "";
 
     // Create a database connection
     $conn = mysqli_connect($db_host, $db_username, $db_password, $db_name);
@@ -133,16 +133,16 @@ foreach ($fileInputs as $input => $columns) {
     $mailer->isSMTP();
     $mailer->Host = 'smtp.gmail.com';
     $mailer->SMTPAuth = true;
-    $mailer->Username = 'pinoyprofessionalsgroup@gmail.com';
-    $mailer->Password = 'efpz tron mdug oxyf';
+    $mailer->Username = '';
+    $mailer->Password = '';
     $mailer->SMTPSecure = 'tls'; // Change to 'ssl' if needed
     $mailer->Port = 587; // Change to 465 if using 'ssl'
-    $mailer->setFrom('pinoyprofessionalsgroup@gmail.com', 'Information');
-    $mailer->addAddress('thalia@pinoypro.com');
-    $mailer->addAddress('ed@pinoypro.com');
-    $mailer->addCC('krizza@mvnlaw.ca');
-    $mailer->addCC('rita@pinoypro.com');
-    $mailer->addCC('mvn@pinoylegal.ca');
+    $mailer->setFrom('');
+    $mailer->addAddress('');
+    $mailer->addAddress('');
+    $mailer->addCC('');
+    $mailer->addCC('');
+    $mailer->addCC('');
     $mailer->Subject = 'Information';
     $mailBody = "Notification for New Client\r\n";
     
