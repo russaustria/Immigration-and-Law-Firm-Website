@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .news-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: "Roboto", sans-serif;
+    box-shadow: 0 4px 8px -4px rgba(0, 0, 0, 0.3);
+}
+
+.news-container .title a {
+    position: absolute;
+    background: #df2020;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    color: white;
+    font-weight: bold;
+    z-index: 200;
+    text-decoration: none;
+}
+
+.news-container ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    animation: scroll 40s infinite linear;
+}
+
+.news-container ul li {
+    white-space: nowrap;
+    padding: 10px 24px;
+    color: #494949;
+    position: relative;
+}
+
+.news-container ul li::after {
+    content:"";
+    width: 1px;
+    height: 100%;
+    background: #b8b8b8;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.news-container ul li:last-child::after {
+    display: none;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(-1083px);
+
+    }
+}
+</style>
+<body>
+    
+    <div class="news-container">
+        <div class="title">
+            <a href="https://www.globaldocumentsolutions.com/how-to-get-an-apostille-for-the-philippines-in-canada/#:~:text=Now%2C%20Canadian%20documents%20require%20only,validation%20process%20for%20both%20countries.">
+                Breaking News
+            </a>
+        </div>
+        
+
+        <ul>
+            <li>
+                Documents for use in the Philippines no longer need Philippine Embassy authentication. Instead, they can be authenticated solely by Official Document Services of Canadian provinces. This simplifies the process, removing the previous requirement for dual authentication, easing transactions between Canada and the Philippines. Click The Breaking News for more Information.
+            </li>
+            
+        </ul>
+    </div>
+
+</body>
+</html>

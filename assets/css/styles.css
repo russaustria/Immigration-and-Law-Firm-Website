@@ -1,0 +1,422 @@
+body {
+    background-color: white;
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+section {
+    padding: 60px 0;
+  }
+  
+  .section-bg {
+    background-color: #f7fbfe;
+  }
+  
+  .section-title {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .section-title h2 {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+  }
+  
+  .section-title h2::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+  }
+  
+  .section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: rgb(26, 2, 239);
+    bottom: 0;
+    left: calc(50% - 20px);
+  }
+  
+  .section-title p {
+    margin-bottom: 0;
+  }
+
+
+.navbar.navbar-expand-lg.bg-light {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+  }
+
+.navbar{
+    font-family: "Poppins", sans-serif;
+}
+
+
+
+.logo-icon{
+    width: 250px;
+}
+
+.header-social-links {
+    margin: 0 0 0 10px;
+  }
+  
+  .header-social-links a {
+    color: #9ba6af;
+    padding-left: 8px;
+    display: inline-block;
+    line-height: 0px;
+    transition: 0.3s;
+  }
+  
+  .header-social-links a i {
+    line-height: 0;
+  }
+  
+  .header-social-links a:hover {
+    color: rgb(26, 2, 239);
+  }
+
+.btn-get-started {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 4px;
+    transition: ease-in-out 0.3s;
+    color: #fff;
+    background: rgb(26, 2, 239);
+    text-transform: uppercase;
+  }
+  
+  .btn-get-started:hover {
+    background: #281dff;
+    color: white;
+  }
+
+  /*--------------------------------------------------------------
+# What We Do
+--------------------------------------------------------------*/
+.what-we-do .icon-box {
+    text-align: center;
+    padding: 30px 20px;
+    transition: all ease-in-out 0.3s;
+    background: #fff;
+  }
+  
+  .what-we-do .icon-box .icon {
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    background: #eaf4fb;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: ease-in-out 0.3s;
+  }
+  
+  .what-we-do .icon-box .icon i {
+    color: rgb(26, 2, 239);
+    font-size: 28px;
+  }
+  
+  .what-we-do .icon-box h4 {
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+  
+  .what-we-do .icon-box h4 a {
+    color: #384046;
+    transition: ease-in-out 0.3s;
+  }
+  
+  .what-we-do .icon-box p {
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  
+  .what-we-do .icon-box:hover {
+    border-color: #fff;
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  .what-we-do .icon-box:hover h4 a,
+  .what-we-do .icon-box:hover .icon i {
+    color: rgb(26, 2, 239);
+  }
+
+.card {
+    text-align: center; /* Center the content horizontally */
+}
+
+.card:hover {
+    border-color: #fff;
+    box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+    
+}
+
+.card:hover h5 {
+    color: rgb(26, 2, 239);
+}
+
+.card img {
+    width: 50%;
+    display: block; /* This ensures the image is centered properly */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+@media (max-width: 991px){
+    .sidebar{
+        background-color: whitesmoke;
+        max-width:300px;
+    }
+
+    .logo-icon-sidebar{
+        width: 180px;
+        margin-left: 45px;
+    }
+    
+}
+
+.background{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bilisperabackground{
+  width: 100%;
+  height: 90vh;
+  background-image: url(bilisperabackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.content p {
+    font-size: 50px;
+    font-weight: bold;
+    margin:auto;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.content h1 {
+    color: rgb(26, 2, 239);
+    font-size: 80px;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 1px 0.5px rgb(242, 250, 1); /* Add a white shadow with a 5px blur */
+}
+
+
+
+.content h2 {
+    color: rgb(252, 252, 252);
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+}
+
+.companies{
+    background-color: white;
+    height: 60vh;
+    width:100%;
+}
+
+.container h2{
+    padding-top: 40px;
+}
+
+#company-section {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+#about-section {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+#services-section {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+#location-section {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease, transform 1s ease;
+}
+
+
+
+
+.smaller-image {
+    max-width: 350px; /* Adjust the value to your desired width */
+    max-height: 800px; /* Adjust the value to your desired height */
+    
+}
+
+.gov-smaller-image {
+    max-width: 250px; /* Adjust the value to your desired width */
+    max-height: 400px; /* Adjust the value to your desired height */
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .background{
+        width: 100%;
+        height: 60vh;
+        background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url(img1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .content p {
+        color: rgb(27, 7, 213);
+        font-size: 40px;
+        font-weight: bold;
+        margin:auto;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    .header-social-links {
+        margin: 0 0 0 10px;
+      }
+      
+      .header-social-links a {
+        color: #9ba6af;
+        padding-left: 37px;
+        display: inline-block;
+        line-height: 0px;
+        transition: 0.3s;
+        align-items: center;
+        padding-top: 300px;
+      }
+      
+      .header-social-links a i {
+        line-height: 0;
+      }
+      
+      .header-social-links a:hover {
+        color: rgb(26, 2, 239);
+      }
+    
+    .content h1 {
+        color: rgb(26, 2, 239);
+        font-size: 50px;
+        font-weight: bold;
+        margin: auto;
+        text-align: center;
+        font-style: italic;
+        text-shadow: 1px 0.5px rgb(242, 250, 1); /* Add a white shadow with a 5px blur */
+    }
+    
+    
+    .content h2 {
+        color: rgb(252, 252, 252);
+        font-size: 15px;
+        margin: auto;
+        text-align: center;
+    }
+
+    .companies{
+        background-color: white;
+        height: 40vh;
+        width:100%;
+    }
+    
+    .company-content h1{
+        text-align: center;
+        padding-top: 80px;
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    #company-section {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 1s ease, transform 1s ease;
+    }
+
+    #about-section {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 1s ease, transform 1s ease;
+        text-align: center;
+    }
+    
+    .smaller-image {
+        max-width: 250px; /* Adjust the value to your desired width */
+        max-height: 400px; /* Adjust the value to your desired height */
+        align-items: center;
+    }
+
+    #services-section{
+        text-align: center;
+    }
+
+    #location-section {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 1s ease, transform 1s ease;
+    }
+
+    #map-section {
+        opacity: 0;
+        transform: translateY(50px);
+        transition: opacity 1s ease, transform 1s ease;
+    }
+    
+    .gov-smaller-image {
+        max-width: 250px; /* Adjust the value to your desired width */
+        max-height: 400px; /* Adjust the value to your desired height */
+        align-content: center;
+    }
+    
+
+    
+}
+

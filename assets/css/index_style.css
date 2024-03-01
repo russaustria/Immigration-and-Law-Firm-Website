@@ -1,0 +1,57 @@
+body{
+    color:rgb(15, 15, 159);
+}
+.logo-icon{
+    width: 160px;
+}
+
+.logo-icon-company{
+    width: 90px;
+}
+
+.headings{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color:rgb(15, 15, 159);
+}
+
+h4{
+    color:rgb(15, 15, 159);
+}
+
+.headings-company{
+    text-align: center;
+    margin:auto
+}
+
+.form-check {
+    align-items: center;
+    margin-left: 10px;
+  }
+
+#bilisperaform {
+    align-items: center;
+    margin-left: 50px;
+}
+
+#bilisalisform {
+    align-items: center;
+    margin-left: 70px;
+}
+
+.form-control {
+    font-size: 16px; /* Adjust the font size as needed */
+    width: 350px;
+    margin: 0px auto; /* Center the element horizontally and reduce the vertical margin */
+}
+
+.panel{
+    max-width: 800px;
+}
+p, h4 {
+    font-family: "Raleway", sans-serif;
+}
+
+
+
